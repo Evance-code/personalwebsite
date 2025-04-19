@@ -5,121 +5,123 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contact | Evance Katanga</title>
   <link rel="stylesheet" href="styles/style.css">
-  <!-- Font Awesome for icons -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
   <header class="header">
     <div class="container">
-      <h1>Evance Hosea Katanga</h1>
-      <p class="tagline">Software Developer | Aviation Professional</p>
-      <nav>
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="projects.html">Projects</a>
-        <a href="blog.html">Blog</a>
-        <a href="contact.html" class="active">Contact</a>
-      </nav>
+      <div class="header-content">
+        <h1 class="text-gradient">Evance Katanga</h1>
+        <p class="tagline">Let's Connct</p>
+        <nav class="main-nav">
+          <a href="index.html" class="active"><i class="fas fa-home"></i> Home</a>
+          <a href="about.html"><i class="fas fa-user"></i> About</a>
+          <a href="projects.html"><i class="fas fa-code"></i> Projects</a>
+          <a href="blog.html"><i class="fas fa-blog"></i> Blog</a>
+          <a href="contact.html"><i class="fas fa-envelope"></i> Contact</a>
+        </nav>
+      </div>
     </div>
   </header>
 
   <main class="container">
-    <section class="section">
-      <h2>Get In Touch</h2>
-      
+    <section class="section contact-section">
+      <h2><i class="fas fa-paper-plane"></i> Get In Touch</h2>
+      <p class="contact-intro">Have a project in mind or want to discuss potential opportunities? Feel free to reach out!</p>
+
       <div class="contact-grid">
-        <!-- Contact Information Column -->
         <div class="contact-info">
-          <h3><i class="fas fa-address-card"></i> Contact Details</h3>
+          <h3><i class="fas fa-info-circle"></i> Contact Information</h3>
           <ul class="contact-list">
             <li>
               <i class="fas fa-envelope"></i>
-              <a href="mailto:ekatanga@byupathway.edu">ekatanga@byupathway.edu</a>
+              <span>Email: <a href="mailto:ekatanga@byupathway.edu">ekatanga@byupathway.edu</a></span>
             </li>
             <li>
               <i class="fas fa-phone"></i>
-              <a href="tel:+255748613040">+255 748 613 040</a>
-              <span class="contact-note">(WhatsApp available)</span>
+              <span>Phone: <a href="tel:+255748613040">+255 748 613 040</a></span>
             </li>
             <li>
-              <i class="fab fa-linkedin"></i>
-              <a href="https://www.linkedin.com/in/evancekatanga" target="_blank">linkedin.com/in/evancekatanga</a>
-            </li>
-            <li>
-              <i class="fab fa-github"></i>
-              <a href="https://github.com/Evance-code" target="_blank">github.com/Evance-code</a>
-            </li>
-            <li>
-              <i class="fab fa-facebook"></i>
-              <a href="https://www.facebook.com/EvanceQatanga" target="_blank">facebook.com/EvanceQatanga</a>
+              <i class="fas fa-map-marker-alt"></i>
+              <span>Location: Dar es Salaam, Tanzania</span>
             </li>
           </ul>
 
-          <div class="location-card">
-            <h3><i class="fas fa-map-marker-alt"></i> Aviation Location</h3>
-            <p>
-              <strong>JK Nyerere International Airport (DAR)</strong><br>
-              Terminal Building, 3rd Floor<br>
-              Dar es Salaam, Tanzania
-            </p>
-            <a href="https://maps.app.goo.gl/JKNYerereAirport" target="_blank" class="btn map-btn">
-              <i class="fas fa-map-pin"></i> View on Google Maps
-            </a>
+          <div class="social-contact">
+            <h4>Connect with Me</h4>
+            <div class="social-links">
+              <a href="https://github.com/Evance-code" target="_blank" aria-label="GitHub">
+                <i class="fab fa-github"></i>
+              </a>
+              <a href="https://www.linkedin.com/in/evancekatanga" target="_blank" aria-label="LinkedIn">
+                <i class="fab fa-linkedin"></i>
+              </a>
+              <a href="mailto:ekatanga@byupathway.edu" target="_blank" aria-label="Email">
+                <i class="fas fa-envelope"></i>
+              </a>
+              <a href="https://wa.me/255748613040" target="_blank" aria-label="WhatsApp">
+                <i class="fab fa-whatsapp"></i>
+              </a>
+              <a href="https://www.facebook.com/evanceqatanga" target="_blank" aria-label="Facebook">
+                <i class="fab fa-facebook"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="office-hours">
+            <h4><i class="fas fa-clock"></i> Availability</h4>
+            <p>Monday - Friday: 9:00 AM - 5:00 PM</p>
+            <p>Weekends: Limited availability</p>
           </div>
         </div>
 
-        <!-- Contact Form Column -->
-        <form class="contact-form" action="https://formspree.io/f/ekatanga@byupathway.edu" method="POST">
-          <div class="form-group">
-            <label for="name"><i class="fas fa-user"></i> Name</label>
-            <input type="text" id="name" name="name" required placeholder="Your full name">
-          </div>
-          <div class="form-group">
-            <label for="email"><i class="fas fa-envelope"></i> Email</label>
-            <input type="email" id="email" name="email" required placeholder="your.email@example.com">
-          </div>
-          <div class="form-group">
-            <label for="subject"><i class="fas fa-tag"></i> Subject</label>
-            <input type="text" id="subject" name="subject" placeholder="e.g. Project Inquiry">
-          </div>
-          <div class="form-group">
-            <label for="message"><i class="fas fa-comment"></i> Message</label>
-            <textarea id="message" name="message" rows="5" required placeholder="Your message here..."></textarea>
-          </div>
-          <button type="submit" class="btn">
-            <i class="fas fa-paper-plane"></i> Send Message
-          </button>
-        </form>
+        <div class="contact-form-container">
+          <form id="contactForm" class="contact-form">
+            <div class="form-group">
+              <label for="name"><i class="fas fa-user"></i> Name</label>
+              <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+              <label for="email"><i class="fas fa-envelope"></i> Email</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+              <label for="subject"><i class="fas fa-tag"></i> Subject</label>
+              <input type="text" id="subject" name="subject" required>
+            </div>
+            <div class="form-group">
+              <label for="message"><i class="fas fa-comment"></i> Message</label>
+              <textarea id="message" name="message" rows="6" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-submit">
+              <i class="fas fa-paper-plane"></i> Send Message
+            </button>
+            <div id="formStatus"></div>
+          </form>
+        </div>
       </div>
 
-      <!-- Google Maps Embed -->
       <div class="map-container">
-        <h3><i class="fas fa-map-marked-alt"></i> Find Me at JNIA</h3>
-        <iframe 
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.672281118445!2d39.20278931526193!3d-6.872873295038371!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x185c4b3a4d5f27b9%3A0x7d1e3a5e6e5e6e5e!2sJulius%20Nyerere%20International%20Airport!5e0!3m2!1sen!2stz!4v1620000000000!5m2!1sen!2stz" 
-          width="100%" 
-          height="400" 
-          style="border:0; border-radius: 8px;" 
-          allowfullscreen="" 
-          loading="lazy">
-        </iframe>
+        <h3><i class="fas fa-map-marked-alt"></i> Location</h3>
+        <div class="map-wrapper">
+          <!-- Embedded Google Map -->
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3962.935575349897!2d39.20884831528668!3d-6.597578365353968!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x185c5a9b0a5a9b9b%3A0x9b9b9b9b9b9b9b9b!2sDar%20es%20Salaam%2C%20Tanzania!5e0!3m2!1sen!2sus!4v1620000000000!5m2!1sen!2sus" 
+                  width="100%" 
+                  height="400" 
+                  style="border:0;" 
+                  allowfullscreen="" 
+                  loading="lazy"></iframe>
+        </div>
       </div>
     </section>
   </main>
 
   <footer class="footer">
     <div class="container">
-      <p>&copy; 2025 Evance Katanga. All rights reserved.</p>
-      <p class="location-note">
-        <i class="fas fa-plane"></i> Aviation operations based at JK Nyerere International Airport (DAR)
-      </p>
-      <div class="social-links">
-        <a href="https://www.linkedin.com/in/evancekatanga" target="_blank"><i class="fab fa-linkedin"></i></a>
-        <a href="https://github.com/Evance-code" target="_blank"><i class="fab fa-github"></i></a>
-        <a href="https://www.facebook.com/EvanceQatanga" target="_blank"><i class="fab fa-facebook"></i></a>
-        <a href="mailto:ekatanga@byupathway.edu"><i class="fas fa-envelope"></i></a>
-      </div>
+      <p>&copy; <span id="current-year"></span> Evance Katanga. All rights reserved.</p>
     </div>
   </footer>
+
+  <script src="js/main.js"></script>
 </body>
 </html>

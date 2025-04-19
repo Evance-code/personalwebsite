@@ -1,101 +1,142 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>About | Evance Katanga</title>
   <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
-
 <body>
   <header class="header">
     <div class="container">
-      <h1>Evance Hosea Katanga</h1>
-      <p class="tagline">Creative. Consistent. Committed.</p>
-      <nav>
-        <a href="index.html">Home</a>
-        <a href="about.html" class="active">About</a>
-        <a href="projects.html">Projects</a>
-        <a href="blog.html">Blog</a>
-        <a href="contact.html">Contact</a>
-      </nav>
+      <div class="header-content">
+        <h1 class="text-gradient">Evance Katanga</h1>
+        <p class="tagline">About</p>
+        <nav class="main-nav">
+          <a href="index.html" class="active"><i class="fas fa-home"></i> Home</a>
+          <a href="about.html"><i class="fas fa-user"></i> About</a>
+          <a href="projects.html"><i class="fas fa-code"></i> Projects</a>
+          <a href="blog.html"><i class="fas fa-blog"></i> Blog</a>
+          <a href="contact.html"><i class="fas fa-envelope"></i> Contact</a>
+        </nav>
+      </div>
     </div>
   </header>
 
   <main class="container">
-    <section class="section">
+    <section class="section about-section">
+      <h1>Evance Hosea Katanga</h1>
       <h2>About Me</h2>
       <div class="about-grid">
         <div class="about-text">
-          <p>
-            Hello! I'm Evance Katanga, a passionate software developer with a focus on web technologies and application
-            development. I enjoy building efficient, user-friendly digital solutions that solve real-world problems.
-            I'm also trained in flight dispatching, which allows me to merge my love for technology with insights from
-            the aviation industry.
-          </p>
-
-          <p>
-            Beyond my technical background, I actively serve in various leadership and spiritual roles. I'm currently
-            the <strong>Elders Quorum President</strong>, a <strong>Senior Missionary for BYU-Pathway in the Africa Central Area</strong>, and the
-            <strong>Coordinator for the FSY Conference 2025 in Tanzania</strong>.
-          </p>
-
-          <p>
-            These roles have strengthened my commitment to service, communication, and uplifting those around me.
-          </p>
-
-          <p>
-            I’m driven by purpose, faith, and a desire to make meaningful contributions—both in the tech world and in my
-            community.
-          </p>
-
-          <h3>Skills</h3>
-          <ul>
-            <li><strong>Frontend:</strong> HTML, CSS, JavaScript, React</li>
-            <li><strong>Backend:</strong> C#, .NET, Python, Node.js</li>
-            <li><strong>Tools:</strong> Git, GitHub, VS Code, Docker</li>
-          </ul>
-
-          <h3>🎓 Education</h3>
-
-          <div class="education-item">
-            <h4>Bachelor’s Degree in Software Development <em>(In Progress)</em></h4>
-            <p><strong>Brigham Young University–Idaho (Online)</strong></p>
-
-            <p>Partnered with <strong>BYU-Pathway Worldwide</strong></p>
-
-            <p>Emphasis on full-stack development, web technologies, databases, and application design.</p>
+          <div class="bio-section">
+            <p>Hello! I'm Evance Katanga, a passionate software developer with a focus on web technologies and application development. I enjoy building efficient, user-friendly digital solutions that solve real-world problems.</p>
+            <p>I'm also trained in flight dispatching, which allows me to merge my love for technology with insights from the aviation industry.</p>
           </div>
 
-          <br>
-
-          <div class="education-item">
-            <h4>Certificate: BYU-Pathway Worldwide</h4>
-            <p>Completed foundational courses in life skills, university success, and professional development as part
-              of the PathwayConnect program.</p>
+          <div class="leadership-section">
+            <h3><i class="fas fa-users"></i> Leadership & Service</h3>
+            <div class="timeline">
+              <div class="timeline-item">
+                <div class="timeline-date">2024 - Present</div>
+                <div class="timeline-content">
+                  <h4>Elders Quorum President</h4>
+                  <p>Leading and serving members of my local congregation</p>
+                </div>
+              </div>
+              <div class="timeline-item">
+                <div class="timeline-date">2023 - Present</div>
+                <div class="timeline-content">
+                  <h4>BYU-Pathway Senior Missionary</h4>
+                  <p>Africa Central Area</p>
+                </div>
+              </div>
+              <div class="timeline-item">
+                <div class="timeline-date">2025</div>
+                <div class="timeline-content">
+                  <h4>FSY Conference Coordinator</h4>
+                  <p>Tanzania 2025</p>
+                </div>
+              </div>
+            </div>
           </div>
 
-          <br>
-
-          <div class="education-item">
-            <h4>Flight Dispatching Certification</h4>
-            <p><strong>Regional Aviation College</strong></p>
-
-            <p>Trained in air law, meteorology, navigation, flight planning, and operational control of aircraft.</p>
+          <div class="skills-section">
+            <h3><i class="fas fa-code"></i> Technical Skills</h3>
+            <div class="skills-chart">
+              <div class="skill-bar">
+                <div class="skill-name">HTML/CSS</div>
+                <div class="skill-level" data-level="90"></div>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-name">JavaScript</div>
+                <div class="skill-level" data-level="85"></div>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-name">C#/.NET</div>
+                <div class="skill-level" data-level="80"></div>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-name">Python</div>
+                <div class="skill-level" data-level="75"></div>
+              </div>
+            </div>
           </div>
         </div>
 
-        <img src="images/profilephoto.jpg" alt="Evance Portrait" class="about-image">
+        <div class="about-image-container">
+          <img src="images/profilephoto.jpg" alt="Evance Katanga" class="about-image">
+          <div class="image-caption">
+            <p>Evance Katanga</p>
+            <p>Software Developer</p>
+          </div>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="education-section">
+        <h3><i class="fas fa-graduation-cap"></i> Education</h3>
+        <div class="education-timeline">
+          <div class="edu-item">
+            <div class="edu-icon"><i class="fas fa-laptop"></i></div>
+            <div class="edu-content">
+              <h4>Bachelor's Degree in Software Development <span class="edu-status">(In Progress)</span></h4>
+              <p class="edu-institution">Brigham Young University–Idaho (Online)</p>
+              <p class="edu-details">Partnered with BYU-Pathway Worldwide. Emphasis on full-stack development, web technologies, databases, and application design.</p>
+            </div>
+          </div>
+          <div class="edu-item">
+            <div class="edu-icon"><i class="fas fa-certificate"></i></div>
+            <div class="edu-content">
+              <h4>Certificate: BYU-Pathway Worldwide</h4>
+              <p class="edu-institution">PathwayConnect Program</p>
+              <p class="edu-details">Completed foundational courses in life skills, university success, and professional development.</p>
+            </div>
+          </div>
+          <div class="edu-item">
+            <div class="edu-icon"><i class="fas fa-plane"></i></div>
+            <div class="edu-content">
+              <h4>Flight Dispatching Certification</h4>
+              <p class="edu-institution">Regional Aviation College</p>
+              <p class="edu-details">Trained in air law, meteorology, navigation, flight planning, and operational control of aircraft.</p>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   </main>
 
   <footer class="footer">
     <div class="container">
-      <p>&copy; 2025 Evance Katanga. All rights reserved.</p>
+      <p>&copy; <span id="current-year"></span> Evance Katanga. All rights reserved.</p>
     </div>
   </footer>
-</body>
 
+  <script src="js/main.js"></script>
+</body>
 </html>
